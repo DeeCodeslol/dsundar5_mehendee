@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Elegant mehendi (henna) designs for weddings, festivals, and special occasions. View designs, pricing, and book your appointment." />
+  <meta name="keywords" content="mehendi, henna, bridal mehendi, sangeet, arabic mehendi, mandala" />
+  <title>Mehendi by Dheepthi — Home</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="brand">
+      <img src="MehendiLogo.jpg" alt="Henna hand icon" />
+      <h1>Mehendi by Dheepthi</h1>
+    </div>
+    <nav class="site-nav" aria-label="Primary">
+      <a href="index.html" class="active">Home</a>
+      <a href="designs.html">Designs</a>
+      <a href="pricing.html">Pricing</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <main id="main" class="container">
+    <section class="hero">
+      <h2>Timeless Mehendi, Thoughtfully Designed</h2>
+      <p>From delicate finger trails to full bridal coverage, each design is tailored to your style and occasion. Explore featured looks, transparent pricing, and easy booking.</p>
+      <p><a class="btn" href="designs.html">Browse Designs</a> <a class="btn btn-ghost" href="pricing.html">See Pricing</a></p>
+    </section>
+
+    <section class="grid two-col">
+      <article class="card tight">
+        <h3>Featured Video</h3>
+        <video class="feature-video" controls preload="metadata">
+          <source src="henna.mp4" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
+        <p class="caption">Short clip showing a simple floral wrist design being applied</p>
+      </article>
+
+      <article class="card tight">
+        <h3>Why Choose Us</h3>
+        <ul>
+          <li>Skin-safe, fresh henna cones</li>
+          <li>Custom sketches before application</li>
+          <li>Flexible travel for weddings &amp; events</li>
+          <li>Care guide to maximize color &amp; longevity</li>
+        </ul>
+      </article>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+  <p>
+    © <span id="year"></span> Mehendi by Dheepthi •
+    <a href="contact.html">Contact form</a> •
+    <a href="https://en.wikipedia.org/wiki/Mehndi" target="_blank" rel="noopener">Learn more</a>
+  </p>
+</footer>
+<script>
+  document.getElementById('year').textContent = new Date().getFullYear();
+</script>
+</body>
+</html>

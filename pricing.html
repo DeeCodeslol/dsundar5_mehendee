@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Transparent mehendi pricing by style, coverage, and estimated time." />
+  <title>Mehendi by Dheepthi — Pricing</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="brand">
+      <img src="MehendiLogo.jpg" alt="Henna hand icon" />
+      <h1>Mehendi by Dheepthi</h1>
+    </div>
+    <nav class="site-nav" aria-label="Primary">
+      <a href="index.html">Home</a>
+      <a href="designs.html">Designs</a>
+      <a href="pricing.html" class="active">Pricing</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <main id="main" class="container">
+    <section class="page-hero">
+      <div class="kicker">Rates</div>
+      <h2>Simple, Transparent Pricing</h2>
+      <p>Compare styles, coverage, and time. Custom packages on request.</p>
+      <p class="breadcrumbs"><a href="index.html">Home</a> › Pricing</p>
+    </section>
+
+    <section class="card table-card">
+      <h3>Standard Rates</h3>
+      <div class="table-responsive">
+        <table>
+          <thead>
+            <tr>
+              <th>Style</th>
+              <th>Coverage</th>
+              <th>Est. Time</th>
+              <th>Price (USD)</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Arabic</td>
+              <td>Back of one hand to mid-forearm</td>
+              <td>30–45 min</td>
+              <td>$45</td>
+            </tr>
+            <tr>
+              <td>Indo-Arabic</td>
+              <td>Palm + back of both hands</td>
+              <td>60–90 min</td>
+              <td>$95</td>
+            </tr>
+            <tr>
+              <td>Bridal</td>
+              <td>Full hands (palms to elbows) + feet</td>
+              <td>3–5 hrs</td>
+              <td>$350+</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <p class="caption">Add-ons: custom initials, venue travel, sangeet bars. Group discounts available.</p>
+    </section>
+
+    <section class="grid two-col">
+      <article class="card">
+        <h3>What affects price?</h3>
+        <ul>
+          <li>Coverage area (hands only vs. hands + feet)</li>
+          <li>Complexity &amp; density of motifs</li>
+          <li>Travel distance and on-site time</li>
+        </ul>
+      </article>
+      <article class="card">
+        <h3>Ready to book?</h3>
+        <p>Tell me your date, location, and preferred style. I’ll confirm availability and provide a tailored quote.</p>
+        <p><a class="btn" href="contact.html">Request a quote</a></p>
+      </article>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>
+      © <span id="year"></span> Mehendi by Dheepthi •
+      <a href="contact.html">Contact form</a> •
+      <a href="https://en.wikipedia.org/wiki/Mehndi" target="_blank" rel="noopener">Learn more</a>
+    </p>
+  </footer>
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
